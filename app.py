@@ -26,3 +26,4 @@ input=st.text_input("Ask your query")
  
 if input:
     st.write(chain.invoke({"input":input}))
+# python -m streamlit run app.py --server.address 0.0.0.0 --server.port 8000 --server.headless true
